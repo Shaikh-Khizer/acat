@@ -41,7 +41,7 @@ A fast, hacker-friendly CLI utility that visualizes invisible/control characters
 
 ### Basic usage
 ```bash
-acat file.txt
+root@root:~$ acat file.txt
 -.Show.newline.as.literal.`\n`.while.preserving.actual.line.breaks\n
 -.Highlight.control.characters:\n
 ..-.`\t`.(tab)\n
