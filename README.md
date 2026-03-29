@@ -56,18 +56,34 @@ root@root:~$ acat file.txt
 -.Customizable.visible.space.character\n
 -.Efficient.streaming.using.`bufio`.(handles.large.files)
 ```
+---
 
 ### Installation:
+
+#### Install dependency:
+```bash
+go get golang.org/x/term
+```
+#### Clone repository:
 ```bash
 git clone https://github.com/Shaikh-Khizer/acat.git
 cd acat
+```
+#### Initialize module:
+```bash
 go mod init acat
 go mod tidy
+```
+#### Build
+```bash
 go build -o acat
+```
+#### Make global path (optional):
+```bash
 sudo mv acat /usr/local/bin/
 ```
 
-### run:
+### Run:
 ```bash
 acat -h
 ```
