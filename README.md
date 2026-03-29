@@ -80,7 +80,7 @@ go build -o acat
 ```
 #### Make global path (optional):
 ```bash
-sudo mv acat /usr/local/bin/
+sudo cp acat /usr/local/bin/
 ```
 
 ### Run:
